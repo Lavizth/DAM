@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<info_fiscal anho="2021">
+	<datos_cliente id="a1">
+		<nombre>Manuel</nombre>
+		<apellidos>Roca Ros</apellidos>
+		<dni>12345678-A</dni>
+		<productos_contratados>
+			<cuenta_ahorro fecha_inicio="2015-10-01">
+				<porcentaje_titularidad>100</porcentaje_titularidad>
+				<saldo_actual>8600.89</saldo_actual>
+				<!-- tipo de interés-->
+				<tae>0.25</tae>
+			</cuenta_ahorro>
+			<cuenta_ahorro fecha_inicio="2005-10-01">
+				<porcentaje_titularidad>50.99</porcentaje_titularidad>
+				<saldo_actual>300.00</saldo_actual>
+				<!-- tipo de interés-->
+				<tae>1.01</tae>
+			</cuenta_ahorro>
+		</productos_contratados>
+	</datos_cliente>
+	<datos_cliente id="a2">
+		<nombre>Ana</nombre>
+		<apellidos>López Ros</apellidos>
+		<dni>12345678-Z</dni>
+		<productos_contratados>
+			<cuenta_ahorro fecha_inicio="2019-10-01">
+				<porcentaje_titularidad>75</porcentaje_titularidad>
+				<saldo_actual>12000.99</saldo_actual>
+				<!-- tipo de interés-->
+				<tae>0.01</tae>
+			</cuenta_ahorro>
+			
+			<cuenta_ahorro fecha_inicio="2021-10-01">
+				<porcentaje_titularidad>40</porcentaje_titularidad>
+				<saldo_actual>12000.99</saldo_actual>
+				<!-- tipo de interés-->
+				<tae>0.01</tae>
+			</cuenta_ahorro>
+		</productos_contratados>
+	</datos_cliente>
+	
+	<datos_cliente id="a3">
+		<nombre>Beatriz</nombre>
+		<apellidos>Bao Bermúdez</apellidos>
+		<dni>12345678-B</dni>
+		<productos_contratados>
+			<cuenta_ahorro fecha_inicio="2018-10-01">
+				<porcentaje_titularidad>33.33</porcentaje_titularidad>
+				<saldo_actual>1500.01</saldo_actual>
+				<!-- tipo de interés-->
+				<tae>0.01</tae>
+			</cuenta_ahorro>		
+		</productos_contratados>
+	</datos_cliente>
+	
+	<datos_cliente id="a4">
+		<nombre>Lucas</nombre>
+		<apellidos>López Luanco</apellidos>
+		<dni>12345678-L</dni>
+		<productos_contratados>					
+		</productos_contratados>
+	</datos_cliente>
+</info_fiscal>

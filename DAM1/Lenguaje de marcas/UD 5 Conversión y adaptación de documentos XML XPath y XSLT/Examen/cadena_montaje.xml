@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cadena_montaje fecha="2021-10-15" turno="T">
+    <responsable eid="e00001">
+        <nombre>Ana</nombre>
+        <apellidos>López Ruíz</apellidos>
+        <nie>X1234567P</nie>
+    </responsable>   
+    <!-- 1 o más veces -->
+    <operario eid="e00002">
+        <nombre>Juan</nombre>
+        <apellidos>Martínez Barros</apellidos>
+        <dni>12345678B</dni>
+    </operario>
+    <operario eid="e00003">
+        <nombre>Carmen</nombre>
+        <apellidos>Jiménez Bouzada</apellidos>
+        <dni>87654321P</dni>
+    </operario>
+    <operario eid="e00004">
+        <nombre>Luis</nombre>
+        <apellidos>Sánchez Cosme</apellidos>
+        <nie>X8765432Q</nie>
+    </operario>
+</cadena_montaje>
