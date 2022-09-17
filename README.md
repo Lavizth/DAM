@@ -2,14 +2,14 @@
 
 ### Asignaturas
 
-#### [DAM1](DAM1)
+#### DAM1
 - [Bases de datos (BD)](DAM1/Bases%20de%20datos)
 - [Contornos de desarollo (CD)](DAM1/Contornos%20de%20desarollo)
 - [Linguaxes de Marcas e Sistemas de Xestión de Información (LMSXI)](DAM1/Lenguaje%20de%20marcas)
 - [Programación (PROG)](DAM1/Programacion)
 - [Sistemas Informaticos (SI)](DAM1/SI%20(MME))
 
-#### [DAM2](DAM2)
+#### DAM2
 - [Desenvolvemento de Interfaces (DI)](DAM2/DI)
 - [Programación Multimedia y Dispositivos Móbiles (PMDM)](DAM2/PMDM)
 - [Acceso a Datos (AD)](DAM2/AD)
