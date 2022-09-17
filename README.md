@@ -1,16 +1,24 @@
 # DAM
+Curso SMR
+
+## Asignaturas
+### 1º DAM
+- Bases de datos (BD)
+- Contornos de desarollo (CD)
+- Linguaxes de Marcas e Sistemas de Xestión de Información (LMSXI)
+- Programación (PROG)
+- Sistemas Informaticos (SI)
+### 2º DAM
+- Desenvolvemento de Interfaces (DI)
+- Programación Multimedia y Dispositivos Móbiles (PMDM)
+- Acceso a Datos (AD) 
+- Programación de Servizos e Procesos (PSP)
+- Sisteas de Xestion Empresarial (SXE) 
 
 ## Examenes
 
-- DI:
-- PMDM:
-- AD:
-- PSP:
-- SXE:
 
-## Notas
-
-## Horario 
+## Horario 2º DAM (sin FOL ni EIE)
   
 |  | Lunes | Martes | Miercoles | Jueves | Viernes |
 | --- | --- | --- | --- | --- | --- |
