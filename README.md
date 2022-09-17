@@ -14,7 +14,7 @@
 - [Programación Multimedia y Dispositivos Móbiles (PMDM)](DAM2/PMDM)
 - [Acceso a Datos (AD)](DAM2/AD)
 - [Programación de Servizos e Procesos (PSP)](DAM2/PSP)
-- [Sisteas de Xestion Empresarial (SXE)](DAM2/SXE)
+- [Sistemas de Xestion Empresarial (SXE)](DAM2/SXE)
 
 ### Examenes
 
