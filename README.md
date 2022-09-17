@@ -1,7 +1,5 @@
 # DAM
-## Horario
-
-<details><summary> Horario </summary>
+<details><summary> ## Horario </summary>
   
 |  | Lunes | Martes | Miercoles | Jueves | Viernes |
 | --- | --- | --- | --- | --- | --- |
