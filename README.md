@@ -1,7 +1,8 @@
 # DAM
-
 ## Horario
 
+<details><summary> Horario </summary>
+  
 |  | Lunes | Martes | Miercoles | Jueves | Viernes |
 | --- | --- | --- | --- | --- | --- |
 | 16:00 - 16:50 |  | PMDM | DI |  | SXE |
@@ -13,5 +14,7 @@
 | 20:25 - 21:15 |  | AD | PSP | AD |  |
 | 21:15 - 22:05 |  |  | PSP | AD |  |
 
+</details>
+  
 ---
 ## Notas
