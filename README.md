@@ -2,9 +2,20 @@
 
 ## Horario
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+.diaSemana {
+    color: red;
+    font-weight:700;
+    font-size: 35px;
+}
+.heading2 {
+    color: blue;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
 
-|  | Lunes {#identifier .diaSemana} | Martes | Miercoles | Jueves | Viernes |
+|  | Lunes{#identifier .diaSemana} | Martes | Miercoles | Jueves | Viernes |
 | --- | --- | --- | --- | --- | --- |
 | 16:00 - 16:50 |  | PMDM | DI |  | SXE |
 | 16:50 - 17:40 |  | PMDM | DI |  | SXE |
