@@ -3,7 +3,7 @@
 ## Horario
 
 |  | Lunes | Martes | Miercoles | Jueves | Viernes |
-| ---| ---| ---| ---| ---| ---|
+| --- | --- | --- | --- | --- | --- |
 | 16:00 - 16:50 |  | PMDM | DI |  | SXE |
 | 16:50 - 17:40 |  | PMDM | DI |  | SXE |
 | 17:40 - 18:30 | DI | PMDM |  |  | SXE |
