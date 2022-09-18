@@ -5,6 +5,7 @@
 package repaso.Clases;
 
 import repaso.Util.IO;
+import sun.reflect.LangReflectAccess;
 
 /**
  *
@@ -21,31 +22,58 @@ public class BookingManager {
         this.reservasPorFranja = new String[MAX_FRANJAS][piscina.getAforo()];
     }
 
-    public void reservar(String DNI) {
-        int reserva = pedirReserva(); 
-        int i = 0;
-        try {
-            if(reservasPorFranja[reserva-1][i] == null){}
-            reservasPorFranja[reserva-1][i] = DNI;
-        } catch (Exception e){
-            System.out.println("Hubo un error al añadir el DNI");
+    public void reservar() {
+        int franja = pedirFranjaHoraria();
+        String dni;
+        boolean dniOK = false;
+        boolean dniRepetido = false;
+        for (int i = 0; i < piscina.getAforo(); i++) {
+            if (reservasPorFranja[franja - 1][i] == null) {
+                dni = IO.pedirDNI();
+                dniOK = true;
+                if (!dniRepetido(dni)) {
+                    reservasPorFranja[franja - 1][i] = dni;
+                    IO.salida("DNI Añadido correctamente");
+                    break;
+                }
+                dniRepetido = true;
+                break;
+            }
+        }
+        if (!dniOK) {
+            IO.salida("No hay sufuficiente aforo en la franja horaria: " + franja);
+        }
+        if (dniRepetido) {
+            IO.salida("El DNI ya tiene una reserva en alguna franja horaria");
         }
     }
 
-    private int pedirReserva() {
-        int reserva;
+    private int pedirFranjaHoraria() {
+        int franja;
         do {
-            reserva = IO.pedirEntero("Dame la franja horaria (1-6)");
-        } while (!IO.isInRange(1, MAX_FRANJAS, reserva));
-        return reserva;
+            franja = IO.pedirEntero("Dame la franja horaria (1-6)");
+        } while (!IO.isInRange(1, MAX_FRANJAS, franja));
+        return franja;
     }
 
     public void getReservas() {
-        for(int i = 0; i<reservasPorFranja.length;i++){
-            for(int j = 0; j<reservasPorFranja[0].length;j++){
-                System.out.println("Franja: "+i+" aforo: "+j+" DNI: "+reservasPorFranja[i][j]);
+        for (int i = 0; i < reservasPorFranja.length; i++) {
+            for (int j = 0; j < reservasPorFranja[0].length; j++) {
+                IO.salida("Franja: " + i + " aforo: " + j + " DNI: " + reservasPorFranja[i][j]);
             }
         }
     }
 
+    public boolean dniRepetido(String dni) {
+        for (int i = 0; i < reservasPorFranja.length; i++) {
+            for (int j = 0; j < reservasPorFranja[0].length; j++) {
+                if (reservasPorFranja[i][j] != null) {
+                    if (reservasPorFranja[i][j].equals(dni))
+                        return true;
+                }
+            }
+        }
+        return false;
+    }
+    
 }

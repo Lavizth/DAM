@@ -26,17 +26,19 @@ public class Piscina {
         this.anchuraParcela = anchuraParcela;
         this.aforo = CalcularAforo();
     }
+
+    public int getAforo(){
+        return aforo;
+    }
     
     private int calcularSuperficie(int altura, int anchura){
         return altura * anchura;
     }
     
     private int CalcularAforo(){
-        return Math.min(calcularSuperficie(alturaPiscina, anchuraPiscina)/ESPACIO_PERSONAL,
-                calcularSuperficie(alturaParcela, anchuraParcela)/ESPACIO_PERSONAL);
+        return Math.min(
+            calcularSuperficie(alturaPiscina, anchuraPiscina)/ESPACIO_PERSONAL,
+            calcularSuperficie(alturaParcela, anchuraParcela)/ESPACIO_PERSONAL);
     }
     
-    public int getAforo(){
-        return aforo;
-    }
 }

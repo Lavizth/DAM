@@ -27,8 +27,30 @@ public class Repaso {
         
         BookingManager bm = new BookingManager(p);
         
-        bm.reservar("abc1231");
-        bm.getReservas();
+        int menu = 0;
+        boolean salir = false;
+        
+        do{
+            menu = IO.pedirEntero("|nMenu de reservas de la piscina"
+                    + "\n1-Salir"
+                    + "\n2-Ver lista de reservas"
+                    + "\n3-Añadir una reserva");
+            
+            switch(menu){
+                case 1:
+                    salir = true;
+                    break;
+                case 2:
+                   bm.getReservas();
+                   break;
+                case 3:
+                   bm.reservar(); 
+                   break;
+                default:
+                    IO.salida("Numero de menu invalido");
+                    break;
+            }
+        }while(salir != true);
     }
      
 }

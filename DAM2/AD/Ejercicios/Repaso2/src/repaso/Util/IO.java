@@ -14,22 +14,21 @@ public class IO {
     static Scanner sc = new Scanner(System.in);
     
     public static int pedirEntero(String texto){
-        
-        //Texto que pide el numero
-        System.out.println(texto);
-        
-        //Pedir numero
+        salida(texto);
         boolean datoOk = false;
         int n = 0;
-        do{
+        
+        do {
             sc = new Scanner(System.in);
-            try{
+            try {
                 n = sc.nextInt();
                 break;
-            }catch(Exception e){
-                System.out.println("\nEl numero esta mal introducelo de nuevo\n"+texto);
+            } catch(Exception e){
+                salida("\nEl numero esta mal, introducelo de nuevo\n"+texto);
             }
-        }while(true);
+            
+        } while(true);
+        
         return n;
     }
     
@@ -39,5 +38,19 @@ public class IO {
         else
             return false;
     }
+
+    public static void salida(String texto){
+        System.out.println(texto);
+    }
     
+    public static String pedirDNI(){
+        String dni;
+        do{
+            salida("Dime tu DNI (8 letras y 1 digito)");
+            sc = new Scanner(System.in);
+            dni = sc.nextLine();
+        }while(!dni.matches("[a-zA-Z]{8}[0-9]"));
+        return dni;
+    }
+
 }
