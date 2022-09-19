@@ -26,6 +26,4 @@ public class Racional {
     public String visualizarRacional(){
         return numerador + "/"+  denominador;
     }
-
-    
 }
