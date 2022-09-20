@@ -13,6 +13,7 @@ import repaso.Util.IO;
 public class BookingManager {
 
     private static final int MAX_FRANJAS = 6;
+    private static final int MIN_FRANJAS = 1;
     private String[][] reservasPorFranja;
     private Piscina piscina;
 
@@ -24,7 +25,7 @@ public class BookingManager {
     public void reservar() {
         String dni = "";
         int franja = pedirFranjaHoraria();
-        int aforo = aforoDisponible(franja);
+        int aforo = dameAforoDisponible(franja);
 
         if (aforo != -1) {
             dni = IO.pedirDNI();
@@ -42,7 +43,7 @@ public class BookingManager {
         int franja;
         do {
             franja = IO.pedirEntero("Dame la franja horaria (1-6)");
-            if(IO.isInRange(1, MAX_FRANJAS, franja))
+            if(IO.isInRange(MIN_FRANJAS, MAX_FRANJAS, franja))
                 return franja;
             else
                 IO.imprimirError("La franja debe ser un numero del 1 al 6");
@@ -67,7 +68,7 @@ public class BookingManager {
         return false;
     }
 
-    public int aforoDisponible(int franja) {
+    public int dameAforoDisponible(int franja) {
         for (int i = 0; i < piscina.getAforo(); i++) {
             if (reservasPorFranja[franja - 1][i] == null) {
                 return i;
