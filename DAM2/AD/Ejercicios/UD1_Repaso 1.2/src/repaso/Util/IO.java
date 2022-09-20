@@ -49,7 +49,7 @@ public class IO {
     public static String pedirDNI(){
         String dni;
         do{
-            imprimir("Dime tu DNI (8 letras y 1 digito)");
+            imprimir("Dime tu DNI (8 numeros y 1 caracter)");
             sc = new Scanner(System.in);
             dni = sc.nextLine();
             
