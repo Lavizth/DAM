@@ -1,33 +1,25 @@
 package Interfaz;
 
-import java.awt.Color;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
-import javax.swing.JPanel;
 import javax.swing.JScrollBar;
+import javax.swing.SwingConstants;
 
 /**
  *
  * @author Lavizth
  */
-public class ScrollBar extends JScrollBar implements AdjustmentListener{
+public class ScrollBar extends JScrollBar{
     
-    private JPanel panelColor;
+    private static final int ORIENTACION =  SwingConstants.VERTICAL;
+    private static final int VALOR_INICIAL = 0;
+    private static final int EXTEND = 1;
+    private static final int MIN = 0;
+    private static final int MAX = 255;
     
-    public ScrollBar(int orientacion, int valor, int extend, int min, int max, JPanel panelColor){
-        super(orientacion, valor, extend, min, max);
-        this.panelColor = panelColor;
+    public ScrollBar(){
+        super(ORIENTACION, VALOR_INICIAL, EXTEND,MIN,MAX);
     }
-
-    @Override
-    public void adjustmentValueChanged(AdjustmentEvent e) {
-        System.out.println("a");
-        panelColor.setBackground(Color.GREEN);
-    }
-
-
-
     
     
-    
+
+
 }
