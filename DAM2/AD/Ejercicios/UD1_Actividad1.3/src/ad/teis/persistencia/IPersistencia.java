@@ -14,5 +14,6 @@ public interface IPersistencia {
     
     void escribirPersona(Persona persona, String ruta);
     Persona leerDatos(String ruta);
+    Persona leerPersona (int pos, String ruta);
     
 }

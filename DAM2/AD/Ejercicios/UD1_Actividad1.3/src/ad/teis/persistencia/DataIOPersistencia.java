@@ -11,8 +11,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -47,7 +45,7 @@ public class DataIOPersistencia implements IPersistencia {
     public Persona leerDatos(String ruta) {
         
         long id = 0;
-        String dni1 = "";
+        StringBuilder dni1 = new StringBuilder();
         String dni2 = "";
         int edad = 0;
         float salario = 0;
@@ -55,12 +53,11 @@ public class DataIOPersistencia implements IPersistencia {
         try(FileInputStream fis = new FileInputStream(ruta)){
             
             DataInputStream dis = new DataInputStream(fis);
-            id = dis.readLong();
             
+            id = dis.readLong();
             for(int i=0;i<9;i++){
-                dni1 += dis.readChar();
+                dni1.append(dis.readChar());
             }
-                
             dni2 = dis.readUTF();
             edad = dis.readInt();
             salario = dis.readFloat();
@@ -71,8 +68,13 @@ public class DataIOPersistencia implements IPersistencia {
             System.out.println("ha ocurrido un error " + ex.getMessage());
         }
         
-        System.out.println(new Persona(id, dni1, edad, salario));
+        System.out.println(new Persona(id, dni1.toString(), edad, salario));
         return new Persona(id, dni2, edad, salario);
+    }
+
+    @Override
+    public Persona leerPersona(int pos, String ruta) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
 }
