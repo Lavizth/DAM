@@ -1,0 +1,5 @@
+ps 	→ lista de procesos
+pstree 	→ procesos en arbol
+kill 	→ serial a proceso
+killall → mata app
+nice 	→ prioridades
