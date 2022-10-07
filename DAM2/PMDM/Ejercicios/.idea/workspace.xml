@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64aea25f-fd93-4224-a94a-fe94bc2649d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AD/Ejercicios/UD1_Repaso 1.2/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../AD/Ejercicios/UD1_Repaso 1.2/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AD/Ejercicios/UD1_Repaso 1.2/src/repaso/Util/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AD/Ejercicios/UD1_Repaso 1.2/src/repaso/Util/IO.java" afterDir="false" />
-    </list>
+    <list default="true" id="64aea25f-fd93-4224-a94a-fe94bc2649d2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +46,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="android-custom-viewC:/Users/a14deividdd/AppData/Local/Android/Sdk/sources/android-33/android/view/View.java_SELECTED" value="View" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ejercicio1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
