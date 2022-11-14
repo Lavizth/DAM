@@ -4,6 +4,14 @@
  */
 package tablademultiplicar;
 
+<<<<<<< HEAD
+=======
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+>>>>>>> c68769889a644695e5b6077e23c34c00a34874ee
 /**
  *
  * @author a14deividdd
