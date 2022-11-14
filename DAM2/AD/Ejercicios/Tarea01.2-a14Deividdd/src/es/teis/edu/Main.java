@@ -4,9 +4,16 @@
  */
 package es.teis.edu;
 
+import es.teis.data.IPersistencia;
+import es.teis.data.PartidoObjectPersistencia;
+import es.teis.data.exceptions.LecturaException;
+import es.teis.dataXML.DOMXMLService;
+import es.teis.dataXML.IXMLService;
 import es.teis.model.Partido;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -25,15 +32,25 @@ public class Main {
     public static void main(String[] args) {
 
 //completa aquí: 
-        mostrar(partidos);
-
+        ArrayList<Partido> partidos = new ArrayList();
+        
+        IXMLService xmlService = new DOMXMLService();
+        try {
+            partidos = xmlService.leerPartidos(ELECCIONES_INPUT_FILE, UMBRAL_PORCENTAJE);
+        } catch (LecturaException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        IPersistencia persistencia = new PartidoObjectPersistencia();
+        persistencia.escribir(partidos, ELECCIONES_OUTPUT_FILE);
+        
+        mostrar(persistencia.leerTodo(ELECCIONES_OUTPUT_FILE));
     }
 
     private static void mostrar(ArrayList<Partido> partidos) {
         System.out.println("Se han leído: ");
         for (Partido partido : partidos) {
             System.out.println(partido);
-
         }
     }
 
