@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c54dfb1-c65e-414b-8306-626b3d514f09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/ad/teis/model/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/ad/teis/persistencia/DataIOPersistencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/ad/teis/persistencia/IPersistencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/ad/teis/persistencia/RandomAccessPersistencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/ad/teis/tarea/CrearPersonasDataIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/ad/teis/tarea/Tarea01_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/docs/borrados/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/docs/borrados/origen.dat.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/src/docs/destino.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/docs/elecciones_output.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/data/PartidoObjectPersistencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar/src/tablademultiplicar/ConstructorPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar/src/tablademultiplicar/Matematica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio_Aleatorio/Ejercicio_Aleatorio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio_Aleatorio/src/GeneraNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio_Aleatorio/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios Maria/UD2_EjemploBasicoJDBC_SQLServer" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios Maria/UD2_EjemploBasicoJDBC_SQLServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.1-NUEVA-Enunciado-master/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/docs/elecciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/docs/elecciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/es/teis/data/IPersistencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/data/IPersistencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/es/teis/data/exceptions/LecturaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/data/exceptions/LecturaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/es/teis/dataXML/DOMXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/dataXML/DOMXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/es/teis/dataXML/IXMLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/dataXML/IXMLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/es/teis/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/edu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-Enunciado-master/src/es/teis/model/Partido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Ejercicios/Tarea01.2-a14Deividdd/src/es/teis/model/Partido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar/src/tablademultiplicar/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar/src/tablademultiplicar/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar/src/tablademultiplicar/TablaDeMultiplicar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Ejercicios/Java/TablaDeMultiplicar/src/tablademultiplicar/TablaDeMultiplicar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HdwoBllnRwp1x0SAs3mqeYpPui" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Ping" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c54dfb1-c65e-414b-8306-626b3d514f09" name="Changes" comment="" />
+      <created>1668628442778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668628442778</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
